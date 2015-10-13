@@ -1,0 +1,29 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "example for apple tvmljs app structure",
+  "main": "application.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mcabe/appletvmljs"
+  },
+  "keywords": [
+    "apple",
+    "tv",
+    "tml",
+    "tvjs",
+    "tvos"
+  ],
+  "author": "mcabe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mcabe/appletvmljs/issues"
+  },
+  "homepage": "https://github.com/mcabe/appletvmljs",
+  "dependencies": {
+    "q": "^1.4.1"
+  }
+}

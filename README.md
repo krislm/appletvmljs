@@ -11,7 +11,7 @@ Make these changes to the AppDelegate.swift file:
 *Add the following global variable to your class: var appController: TVApplicationController?
 *Modify application:didfinishLaunchingWithOptions: according to the code found in the listing below:
 
-<code>
+```
 func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
     self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
 
@@ -32,7 +32,7 @@ func application(application: UIApplication, didFinishLaunchingWithOptions launc
 
     return true
 }
-</code>
+```
 
 Build: browserify client/application.js > dist/bundle.js (npm install -g browserify)
 

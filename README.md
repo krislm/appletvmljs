@@ -1,9 +1,13 @@
 PULL REQUESTS WELCOME!
 
 Goals:
+
 1. module structure instead of 'routes'. separation of logic and templates into multiple "controllers" and templates for each module
+
 2. api requests to be performed in services
+
 3. "common use" services (such as an alert service)
+
 4. better build process
 
 XCodde instructions:
